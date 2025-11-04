@@ -1,0 +1,90 @@
+{
+  "name": "react-pos-engine",
+  "version": "2.1.3",
+  "description": "A powerful React POS (Point-of-Sale) printing engine with customizable receipt templates and layout options.",
+  "author": "Kazi Nayeem",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "react-hooks",
+    "react-library",
+    "typescript",
+    "pos",
+    "receipt",
+    "invoice",
+    "invoice-generator",
+    "receipt-printer",
+    "thermal-printer",
+    "pos-system",
+    "point-of-sale",
+    "billing",
+    "printing",
+    "print-receipt",
+    "react-pos",
+    "print-engine",
+    "react-printing",
+    "react-pos-engine",
+    "receipt-layout",
+    "a4-print",
+    "pos-receipt",
+    "react-invoice",
+    "print-template",
+    "business-invoice",
+    "store-invoice",
+    "ecommerce-receipt",
+    "react-utils",
+    "invoice-printing",
+    "receipt-template",
+    "pos-print",
+    "cashier-receipt",
+    "react-billing",
+    "custom-receipt",
+    "print-preview",
+    "pdf-receipt",
+    "pdf-invoice",
+    "thermal-receipt",
+    "print-management"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kazinayeem/react-pos-engine"
+  },
+  "bugs": {
+    "url": "https://github.com/kazinayeem/react-pos-engine/issues"
+  },
+  "homepage": "https://github.com/kazinayeem/react-pos-engine#readme",
+  "type": "module",
+  "main": "dist/react-pos-engine.umd.js",
+  "module": "dist/react-pos-engine.es.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite --open",
+    "build": "vite build && tsc --emitDeclarationOnly",
+    "lint": "eslint . --ext .ts,.tsx",
+    "clean": "rimraf dist",
+    "prepublishOnly": "npm run clean && npm run build",
+    "preview": "vite preview"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "dependencies": {
+    "@types/node": "^24.9.2",
+    "lucide-react": "^0.552.0",
+    "path": "^0.12.7",
+    "react-pos-engine": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "@vitejs/plugin-react": "^5.1.0",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.9.3",
+    "vite": "^7.1.12",
+    "vite-plugin-dts": "^4.5.4"
+  }
+}

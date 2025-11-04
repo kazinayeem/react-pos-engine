@@ -1,0 +1,12 @@
+import React from "react";
+import { LayoutProps } from "../types/type";
+declare const Layout9_SleekUnderline: React.FC<LayoutProps>;
+declare const Layout10_PillHeader: React.FC<LayoutProps>;
+declare const Layout11_SplitHeader: React.FC<LayoutProps>;
+declare const Layout12_BoxedSummary: React.FC<LayoutProps>;
+declare const Layout13_ItemEmphasis: React.FC<LayoutProps>;
+declare const Layout14_ECommerce: React.FC<LayoutProps>;
+declare const Layout15_Minimalist: React.FC<LayoutProps>;
+declare const Layout16_VibrantTropical: React.FC<LayoutProps>;
+declare const Layout17_Condensed: React.FC<LayoutProps>;
+export { Layout9_SleekUnderline, Layout10_PillHeader, Layout11_SplitHeader, Layout12_BoxedSummary, Layout13_ItemEmphasis, Layout14_ECommerce, Layout15_Minimalist, Layout16_VibrantTropical, Layout17_Condensed, };
